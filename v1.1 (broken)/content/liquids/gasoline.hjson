@@ -1,0 +1,9 @@
+name: Gasoline
+description: Unrefined Petrol
+temperature: 0.5
+viscosity: 0.8
+speedMultiplier: 0.8
+effect: oily
+color: fc3636
+lightColor: fc3636
+flammability: 1

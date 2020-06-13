@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Silver Forge
+description: Makes Silver By Combining Copper And Thorium Also Requires Energy
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      copper/3
+      thorium/3
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 3
+  }
+}
+requirements: [
+  lead/60
+  thorium/70
+  silicon/65
+]
+category: crafting
+research: silver-forge
+idleSound: respawning
+idleSoundVolume: 0.7
+outputItem: silver/3
