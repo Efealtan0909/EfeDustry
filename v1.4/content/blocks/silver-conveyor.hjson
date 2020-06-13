@@ -1,0 +1,12 @@
+type: Conveyor
+name: Silver conveyor
+description: A pretty Fast Conveyor, I recommend.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  silver/5
+]
+category: distribution
+speed: 0.13
+research: titanium-conveyor

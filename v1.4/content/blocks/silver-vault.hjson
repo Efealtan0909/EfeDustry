@@ -1,0 +1,13 @@
+name: Silver Vault
+description: Shocking way of storing items.
+type: Vault
+itemCapacity: 2500
+hasItems: true
+health: 2000
+size: 3
+requirements: [
+  titanium/60
+  silver/40
+]
+category: effect
+research: vault

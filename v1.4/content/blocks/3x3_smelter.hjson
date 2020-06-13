@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: "3x3 Smelter"
+description: "its a smelter thats 3x3 and more faster than 2x2 one"
+size: 3
+hasPower: true
+craftTime: 25
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  items: {
+    items: [
+      sand/3
+      coal/3
+    ]
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/3
+
+
