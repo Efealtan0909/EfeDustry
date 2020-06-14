@@ -1,0 +1,12 @@
+type: Conveyor
+name: Efeyor conveyor
+description: its the lightsped oh my godness
+requirements: [
+  titanium/10
+  copper/10
+  lead/10
+  silver/10
+]
+category: distribution
+speed: 0.30
+research: titanium-conveyor

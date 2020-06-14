@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Platinum Forge
+description: Makes Platinum and It Requires Silicon and Molten Silver
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 35
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+  liquid: {
+    liquid: molten-silver
+    amount: 1
+  }
+}
+requirements: [
+  silver/40
+  thorium/70
+  graphite/20
+]
+category: crafting
+research: platinum-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: platinum/1

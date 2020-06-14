@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Efeyor Forge
+description: Makes Efeyor From Platinum And Molten Silver
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 35
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silver/1
+    ]
+  }
+  liquid: {
+    liquid: molten-silver
+    amount: 1
+  }
+}
+requirements: [
+  silver/50
+  thorium/120
+  silicon/50
+  platinum/50
+]
+category: crafting
+research: efeyor-forge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: platinum/1

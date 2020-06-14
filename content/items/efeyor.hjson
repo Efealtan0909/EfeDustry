@@ -1,0 +1,6 @@
+type: material
+name: Platinum
+description: Efeyor the coolest ore in the world
+hardness: 2
+cost: 2
+color: 1e6c67

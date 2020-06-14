@@ -1,0 +1,12 @@
+type: Conveyor
+name: Platinum conveyor
+description: Pretty Pretty fast holy macaron its real fast
+requirements: [
+  titanium/5
+  copper/5
+  lead/5
+  silver/5
+]
+category: distribution
+speed: 0.20
+research: titanium-conveyor
