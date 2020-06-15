@@ -2,7 +2,7 @@ type: Conveyor
 name: Platinum conveyor
 description: Pretty Pretty fast holy macaron its real fast
 requirements: [
-  titanium/5
+  platinum/5
   copper/5
   lead/5
   silver/5
